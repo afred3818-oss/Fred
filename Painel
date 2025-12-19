@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AUXÍLIO sszrzqy</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.panel{
+    width:360px;
+    background:#0b0b0b;
+    border-radius:18px;
+    padding:20px;
+    box-shadow:0 0 25px #8a2be2;
+    border:2px solid #8a2be2;
+}
+
+.title{
+    text-align:center;
+    color:#fff;
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.tabs{
+    display:flex;
+    gap:10px;
+    margin-bottom:15px;
+}
+
+.tab{
+    flex:1;
+    padding:10px;
+    text-align:center;
+    border-radius:12px;
+    border:2px solid #8a2be2;
+    color:#8a2be2;
+}
+
+.tab.active{
+    background:#8a2be2;
+    color:#fff;
+}
+
+.option{
+    background:#111;
+    border:2px solid #8a2be2;
+    border-radius:12px;
+    padding:12px;
+    color:#fff;
+    margin-bottom:10px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.arrow{
+    width:26px;
+    height:26px;
+    border:2px solid #8a2be2;
+    border-radius:8px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#8a2be2;
+    font-weight:bold;
+}
+
+.label{
+    flex:1;
+}
+
+.precision{
+    color:#fff;
+    margin:10px 0;
+}
+
+input[type=range]{
+    width:100%;
+}
+
+.select{
+    width:100%;
+    margin:12px 0;
+    padding:10px;
+    border-radius:12px;
+    border:2px solid #8a2be2;
+    background:#111;
+    color:#fff;
+}
+
+.button{
+    margin-top:15px;
+    background:#8a2be2;
+    color:#fff;
+    text-align:center;
+    padding:14px;
+    border-radius:14px;
+    font-weight:bold;
+    box-shadow:0 0 15px #8a2be2;
+}
+</style>
+</head>
+
+<body>
+
+<div class="panel">
+    <div class="title">AUXÍLIO sszrzqy</div>
+
+    <div class="tabs">
+        <div class="tab active">Funções</div>
+        <div class="tab">Info</div>
+    </div>
+
+    <div class="option">
+        <div class="arrow">&lt;</div>
+        <div class="label">Máximo de Precisão</div>
+    </div>
+
+    <div class="option">
+        <div class="arrow">&lt;</div>
+        <div class="label">Norecoil</div>
+    </div>
+
+    <div class="option">
+        <div class="arrow">&lt;</div>
+        <div class="label">Melhor Mira</div>
+    </div>
+
+    <div class="precision">Precisão: 0</div>
+    <input type="range" min="0" max="100">
+
+    <select class="select">
+        <option>Auxílio Cabeça</option>
+        <option>Auxílio Corpo</option>
+        <option>Auxílio Padrão</option>
+    </select>
+
+    <div class="button">INJETAR FUNÇÕES NO JOGO</div>
+</div>
+
+</body>
+</html>
+
